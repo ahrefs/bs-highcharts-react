@@ -1,0 +1,17 @@
+{
+  "name": "@ahrefs/bs-highcharts-react",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": ["@ahrefs/bs-highcharts", "reason-react"],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@ahrefs/bs-highcharts-react",
+  "version": "0.0.1",
+  "description": "Bucklescript bindings for highcharts-react-official",
+  "homepage": "https://github.com/ahrefs/bs-highcharts-react",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ahrefs/bs-highcharts-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahrefs/bs-highcharts-react/issues"
+  },
+  "author": "javier.chavarri@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "chart",
+    "react-component",
+    "bucklescript",
+    "highcharts-react-official",
+    "highcharts-react",
+    "binding"
+  ],
+  "devDependencies": {
+    "bs-platform": "^5.0.0",
+    "reason-react": "^0.6.0",
+    "@ahrefs/bs-highcharts": "^0.0.1"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.6.0",
+    "@ahrefs/bs-highcharts": ">=0.0.1"
+  },
+  "dependencies": {
+    "highcharts-react-official": "^2.0.0"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  }
+}
